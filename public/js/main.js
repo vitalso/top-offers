@@ -3,11 +3,18 @@ $(function(){
   // Featured slider
   $('.featured-slider').slick({
     centerMode: true,
-    centerPadding: '190px',
+    centerPadding: '20%',
     slidesToShow: 1,
+    variableWidth: false,
     arrows: false,
     dots: true,
     responsive: [
+      {
+        breakpoint: 1920,
+        settings: {
+          centerPadding: '190px'
+        }
+      },
       {
         breakpoint: 1280,
         settings: {
