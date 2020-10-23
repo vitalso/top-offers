@@ -473,11 +473,24 @@ footer {
       height: auto; }
     .slider-card .card-detail {
       padding: 20px; }
+    .slider-card .card-action {
+      padding: 0 20px; }
     .slider-card .primary-btn {
       font-size: 14px;
-      padding-left: 15px;
-      padding-right: 15px; } }
+      padding-left: 13px;
+      padding-right: 13px; } }
 
 @media screen and (max-width: 480px) {
   .user-title span {
-    display: none; } }
+    display: none; }
+  .featured-slider-item .slide-description {
+    margin-left: 20px; }
+  .slick-dots {
+    bottom: 40px;
+    text-align: center;
+    padding-right: 0;
+    width: auto;
+    right: 0;
+    left: 0; }
+  .primary-btn {
+    font-size: 14px; } }
