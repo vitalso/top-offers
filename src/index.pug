@@ -1,0 +1,346 @@
+doctype html
+html(lang='en')
+	head
+		include elements/head.pug
+	body
+
+		// Header start
+		include elements/header.pug
+
+		// Main page start
+		main
+
+			// Featured slider
+			section.featured
+				.featured-slider
+					.featured-slider-item
+						img(src="images/featured-slide-1.jpg").slide-item-img
+
+						.slide-description
+							p
+								span: Offer ID <b>4976</b>
+								span.epc EPC $1.09
+
+							h2 Box of dog goodies for as low as $21/month
+
+							div
+								a(href="#").primary-btn Add to List
+								a(href="#").default-btn
+									|View Landing Page
+									svg
+										use(xlink:href="images/sprite.svg#right-arrow")
+
+					.featured-slider-item
+						img(src="images/featured-slide-2.jpg").slide-item-img
+
+						.slide-description
+							p
+								span: Offer ID <b>4976</b>
+								span.epc EPC $1.09
+
+							h2 Box of dog goodies for as low as $21/month
+
+							div
+								a(href="#").primary-btn Add to List
+								a(href="#").default-btn
+									|View Landing Page
+									svg
+										use(xlink:href="images/sprite.svg#right-arrow")
+
+					.featured-slider-item
+						img(src="images/featured-slide-1.jpg").slide-item-img
+
+						.slide-description
+							p
+								span: Offer ID <b>4976</b>
+								span.epc EPC $11.09
+
+							h2 Box goodies for as low as $21/month
+
+							div
+								a(href="#").primary-btn Add to List
+								a(href="#").default-btn
+									|View Landing Page
+									svg
+										use(xlink:href="images/sprite.svg#right-arrow")
+
+				button.prev-slide
+					svg
+						use(xlink:href="images/sprite.svg#slider-button")
+
+				button.next-slide
+					svg
+						use(xlink:href="images/sprite.svg#slider-button")
+
+			// Top tranding offers
+			section.campaign
+				.container
+					.row
+						div
+							h1 Top Trending Offers
+							p Our hand-picked, best performing, and top trending offers. You’re welome!
+
+						div.margin-left-auto
+							a(href="#").primary-btn.light-font Skip to Campaign homepage
+
+			// Most popular offers
+			section.margin-top-50
+				.container
+					h3 Most Popular Offers
+
+				// Offer slider
+				.wrap-slider
+					.offer-slider
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-1.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4976
+										span.card-epc EPC $.36
+
+									p.card-title EXCLUSIVE - Problem Solving Gadgets
+
+									.card-action
+										a(href="#").primary-btn.added Added to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-2.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 5016
+										span.card-epc EPC $1.09
+
+									p.card-title Splash Wines - 15 Bottle Mystery Cellar Sale - $8.67 Per Bottle + Free Shipping
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-3.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4487
+										span.card-epc EPC $.37
+
+									p.card-title EXCLUSIVE - Gadget Junkies
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-4.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4487
+										span.card-epc EPC $.37
+
+									p.card-title EXCLUSIVE - Gadget Junkies
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+					button.next-slide
+						svg
+							use(xlink:href="images/sprite.svg#slider-button")
+
+			// Great Performing Offers
+			section.margin-top-50
+				.container
+					h3 Great Performing Offers During Covid
+
+				// Offer slider
+				.wrap-slider
+					.offer-slider
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-5.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 3656
+										span.card-epc EPC $2.19
+
+									p.card-title LeafFilter
+
+									.card-action
+										a(href="#").primary-btn.added Added to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-6.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4929
+										span.card-epc EPC $3.51
+
+									p.card-title ADT - Home Safety Security - $96.00
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-7.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4741
+										span.card-epc EPC $.50+
+
+									p.card-title EXCLUSIVE - My Rent 2 Own Portal
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-4.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4487
+										span.card-epc EPC $.37
+
+									p.card-title EXCLUSIVE - Gadget Junkies
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+					button.next-slide
+						svg
+							use(xlink:href="images/sprite.svg#slider-button")
+
+			// Smokin’ Hot Auto Related Offers
+			section.margin-top-50
+				.container
+					h3 Smokin’ Hot Auto Related Offers
+
+				// Offer slider
+				.wrap-slider
+					.offer-slider
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-8.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4569
+										span.card-epc EPC $1.37
+
+									p.card-title EXCLUSIVE - National Auto Loan Network
+
+									.card-action
+										a(href="#").primary-btn.added Added to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-9.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4939
+										span.card-epc EPC $1.31
+
+									p.card-title EXCLUSIVE - Sparked Autoinsurance CPL
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-10.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4741
+										span.card-epc EPC $.50+
+
+									p.card-title EXCLUSIVE - Protect Auto Insurance - Full form Submit
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+						div
+							.slider-card
+								.card-img
+									img(src="images/offer-4.jpg")
+								.card-detail
+									.card-number
+										span Offer ID 4487
+										span.card-epc EPC $.37
+
+									p.card-title EXCLUSIVE - Gadget Junkies
+
+									.card-action
+										a(href="#").primary-btn Add to List
+										a(href="#").default-btn
+											|View Landing Page
+											svg
+												use(xlink:href="images/sprite.svg#right-arrow")
+
+					button.next-slide
+						svg
+							use(xlink:href="images/sprite.svg#slider-button")
+
+
+		// Footer start
+		include elements/footer.pug
+
+		// jQuery & Bootstrap scripts
+		include elements/scripts.pug
